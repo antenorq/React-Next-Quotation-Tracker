@@ -1,0 +1,52 @@
+/* .geral-container {
+  
+  padding: 100px 20px 20px 20px;
+}
+
+.geral-container .white-container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  height: 85vh;
+} */
+
+.title-content {
+  margin-bottom: 20px;
+}
+.info-content {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* ////////////EVENTS //////////////  */
+
+/*///////////  CARDS ///////////////*/
+.card-custom {
+  background-color: #e5ecf6;
+  border: none;
+  padding: 10px;
+}
+
+.card-custom.finished {
+  background-color: #20c472;
+}
+.card-custom.pending {
+  background-color: rgb(219, 204, 70);
+}
+.card-custom.canceled {
+  background-color: rgb(248, 115, 115);
+}
+.card-custom.approved {
+  background-color: #5a9dd3;
+}
+
+.card-custom-area {
+  border: none;
+  background-color: #f4f6f8;
+  height: auto;
+}
+
+.cardHeader-custom {
+  padding: 15px;
+  background-color: #e5ecf6;
+}

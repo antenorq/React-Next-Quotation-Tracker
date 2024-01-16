@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  --color-default: #1584c8;
+  --color-second: #0067ac;
+  --color-white: #fff;
+  --color-body: #e4e9f7;
+  --color-light: #e0e0e0;
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+/*////////////////// MAIN CONTAINER /////////////////////*/
+
+.main-content {
+  position: relative;
+  background-color: #f7f7fc;
+  min-height: 100vh;
+  top: 0;
+  left: 78px;
+  width: calc(100% - 78px);
+  transition: all 0.5s ease;
+  z-index: 2;
+  /* border: solid 1px #000; */
+}
+
+.main-content .text {
+  display: inline-block;
+  color: var(--color-default);
+  font-size: 25px;
+  font-weight: 500;
+  margin: 18px;
+}
+
+.sidebar.open ~ .main-content {
+  left: 250px;
+  width: calc(100% - 250px);
+}
+
+/*****************************
+  Responsive Css Start
+*****************************/
+
+@media screen and (min-width: 1399px) {
+}
+
+@media screen and (max-width: 1399px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 991px) {
+}
+
+@media screen and (max-width: 767px) {
+  .login_left_img {
+    display: none;
+  }
+
+  .form_fields {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .header {
+    padding: 20px 0px;
+  }
+
+  .user_img .user_avtar p {
+    display: none;
+  }
+
+  .main-sidebar {
+    margin-left: -240px;
+  }
+
+  .sidebar_close {
+    width: 100%;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  .sidebar_close .header,
+  .header {
+    width: 100%;
+  }
+
+  .main-sidebar {
+    max-width: 240px !important;
+    top: 75px;
+    height: calc(100% - 75px);
+  }
+
+  .sidebar_show .main-sidebar {
+    margin-left: 0px;
+  }
+
+  .full-logo {
+    opacity: 1;
+  }
+
+  .half-logo {
+    opacity: 0;
+  }
+
+  .sidebar_menu nav ul li a span {
+    opacity: 1;
+  }
+
+  .dropdown_menu a[data-bs-toggle="collapse"]::after {
+    opacity: 1;
+  }
+
+  .inner_content_block {
+    padding: 35px 10px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+}
+
+@media screen and (max-width: 479px) {
+  .notification_dropdown .dropdown-menu {
+    transform: none !important;
+    top: 30px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .notification_dropdown .dropdown-menu {
+    right: -70px !important;
+  }
+}

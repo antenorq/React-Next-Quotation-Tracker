@@ -1,0 +1,10 @@
+.geral-container {
+  padding: 100px 20px 20px 20px;
+}
+
+.geral-container .white-container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  height: 85vh;
+}
