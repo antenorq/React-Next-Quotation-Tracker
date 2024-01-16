@@ -19,8 +19,8 @@ const SideBar = ({ open }) => {
     <div className={"sidebar " + open}>
       {/*<!-- LOGO -->*/}
       <div className="site_logo">
-        <img className="full-logo" src={fulllogo} alt="Igloo logo" />
-        <img className="half-logo" src={halflogo} alt="Igloo" />
+        <img className="full-logo" src={fulllogo} />
+        <img className="half-logo" src={halflogo} />
       </div>
       {/*<!--NAV LIST-->*/}
       <ul className="nav-list">
